@@ -19,7 +19,7 @@ After running command above, player types in number corresponding with a certain
 - The game starts out with the following screen showing the game board locations with their corresponding numbers.
 <pre>
 
-Tc Tac Toe
+Tic Tac Toe
 play against the computer AI level 0
 one player
 | 1 | 2 | 3 |
