@@ -1,7 +1,7 @@
 # tic-tac-toe
 A simple implementation of tic-tac-toe in Python 2, in which the user faces off against an AI opponent;
 
-##Getting Started
+## Getting Started
 ### Requirements
 - Python 2.7
 - tictactoe.py file
@@ -13,7 +13,7 @@ A simple implementation of tic-tac-toe in Python 2, in which the user faces off 
 - Navigate to folder where repository is stored
 - Run command: $python2.7 tictactoe.py
 
-##How to Play
+## How to Play
 After running command above, player types in number corresponding with a certain location on the board and presses enter. The AI then counteracts the move with the location it chooses.
 
 ## Built With
