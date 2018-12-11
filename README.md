@@ -11,7 +11,7 @@ A simple implementation of tic-tac-toe in Python 2, in which the user faces off 
 
 ## Running
 - Navigate to folder where repository is stored
-- Run command: $python2.7 tictactoe.py
+- Run command: python2 tictactoe.py
 
 ## How to Play
 After running command above, player types in number corresponding with a certain location on the board and presses enter. The AI then counteracts the move with the location it chooses.
@@ -22,11 +22,6 @@ Python v2.7
 ## Authors
 - Hovhannes Avagyan (hovo1994)
 - Wayne Thompson (dubiousFrog)
-
-## getMove
-- designed to get a valid nubmer from the user
-- while loop repreats until valid number has been entered
-- validate input with int() within a try 
 
 ## play()
 - This is the main gameplay function. It is executed when the program starts up and prompts the player to make his/her first move. 
@@ -45,7 +40,10 @@ Python v2.7
 - This function swaps the player's turn.
 
 ## getMove(player)
-- This function takes in an input from the human player. 
+- This function takes in an input from the human player.
+- designed to get a valid nubmer from the user
+- while loop repreats until valid number has been entered
+- validate input with int() within a try 
 
 ## printBoard()
 - Creates the game board by looping through preset values and printing onto terminal

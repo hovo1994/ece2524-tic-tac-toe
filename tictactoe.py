@@ -117,7 +117,7 @@ def wipeBoard():
 	for square in range(0, len(board)) :
 		board[square] = ' '
 
-def canMove():
+def 	canMove():
 	move = False
 	for square in range(0, len(board)) :
 		if board[square] == ' ':
