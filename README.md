@@ -15,6 +15,19 @@ A simple implementation of tic-tac-toe in Python 2, in which the user faces off 
 
 ## How to Play
 After running command above, player types in number corresponding with a certain location on the board and presses enter. The AI then counteracts the move with the location it chooses.
+### Gameplay
+- The game starts out with the following screen showing the game board locations with their corresponding numbers.
+`
+Tc Tac Toe
+play against the computer AI level 0
+one player
+| 1 | 2 | 3 |
+-------------
+| 4 | 5 | 6 |
+-------------
+| 7 | 8 | 9 |
+Square to place the X 
+`
 
 ## Built With
 Python v2.7

@@ -8,7 +8,7 @@ wins = [ [0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1,
 
 def play():
 	global board
-	print 'Tc Tac Toe'
+	print 'Tic Tac Toe'
 	print 'play against the computer AI level 0'
 	print 'one player'
 	printBoard()
