@@ -39,6 +39,14 @@ Python v2.7
 ## swapPlayer(player)
 ## getMove(player)
 ## printBoard()
+- Creates the game board by looping through preset values and printing onto terminal
+
 ## checkWin(player, board)
+- Checks for a winning combination
+
 ## wipeBoard()
+- Resets board for new game
+
 ## canMove()
+- Checks to see if the desired location of the AI's move is an empty space
+- Iteratively checks each of the possible move locations for an empty space
