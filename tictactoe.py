@@ -44,36 +44,6 @@ def randomMove():
 	board[moves[0]] = 'O'
 	print 'My move is ', moves[0] + 1
 
-def canIwin():
-	global board
-	testBoard = board 
-	moveMade = False
-	for square in range(0, len(board)):
-		if testBoard[square] == ' ' and moveMade == False:
-			testBoard[square] = 'O'
-			if checkWin('O', testBoard):
-				board[square] = 'O'
-				moveMade = True
-				print 'My move is ', square + 1
-			else:
-				testBoard[square] = ' ' 
-	return moveMade
-
-def canYouWin():
-	global board
-	testBoard = board 
-	moveMade = False
-	for square in range(0, len(board)):
-		if testBoard[square] == ' ' and moveMade == False:
-			testBoard[square] = 'X'
-			if checkWin('X', testBoard):
-				board[square] = 'X'
-				moveMade = True
-				print 'My move is ', square + 1
-			else:
-				testBoard[square] = ' ' 
-	return moveMade
-
 def win_block(): 
 	global board
 	testBoard = board 
@@ -90,16 +60,6 @@ def win_block():
 				else:
 					testBoard[square] = ' '
 	return moveMade
-
-def generateMove():
-	global board 
-	moves = list()
-	for squares in range(0, len(board)):
-		if board[squares] == ' ':
-			moves.append(squares)
-	shuffle(moves)
-	board[moves[0]] = 'O'
-	print 'My move is ', moves[0] + 1
 
 def swapPlayer(player):
 	if player == 'X':
